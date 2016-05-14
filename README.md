@@ -1,5 +1,5 @@
 # Lem-in
-Lem-in simulates an anthill when several ants has to find their way out of the complex anthill.  
+Lem-in simulates an anthill where several ants has to find their way out of the complex anthill.  
 The Anthill is a graph where several rooms are connected.  
 All the ants begins at the start-room and has to go to the end-room.  
 They can go to a connected room instantly only if there is no other ants in this room.  

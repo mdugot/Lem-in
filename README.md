@@ -26,6 +26,7 @@ The scripts viewer.rb and generator.rb need a ruby interpretor.
 The script viewer.rb needs the gosu ruby library to be installed by gem.  
 
 To use the three parts simultaneously, you can write this command :
-> ./generator.rb [WIDTH] [HEIGHT] [DENSITY] [NUMBER] | ./lem-in | ./viewer.rb
-Or simply launch the script TRY_ME.sh that use predefined arguments for the generator.
+> ./generator.rb [WIDTH] [HEIGHT] [DENSITY] [NUMBER] | ./lem-in | ./viewer.rb  
+
+Or simply launch the script TRY_ME.sh that use predefined arguments for the generator.  
 ................................................................................

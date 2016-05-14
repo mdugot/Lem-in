@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 Complexity = ARGV[0].to_i + 1
 Lenght = ARGV[1].to_i
 Density = ARGV[2].to_i

@@ -1,4 +1,3 @@
-#!/usr/bin/ruby -W0
 require 'gosu'
 
 Rnormal = 1

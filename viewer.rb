@@ -296,8 +296,8 @@ class GameWindow < Gosu::Window
 		@max_green = 0xFF
 		@min_blue = 0x00
 		@max_blue = 0xFF
-		@r = 3
-		@img = Gosu::Image.new(self, Circle.new(@r), false)
+		@r = 6
+#		@img = Gosu::Image.new(self, Circle.new(@r), false)
 		@ah = Anthill.new(self)
 		@last_time = Time.now
 		@delay = 0.1
@@ -331,11 +331,18 @@ class GameWindow < Gosu::Window
 		color = 0xFF000000 + b + g * 0x100 + r * 0x10000
 	end
 
+	#def draw_circle(x, y, c)
+	#	x -= @r / 2
+	#	y -= @r / 2
+	#	@img.draw(x, y, 0, 1, 1, c)
+	#end
+
 	def draw_circle(x, y, c)
 		x -= @r / 2
 		y -= @r / 2
-		@img.draw(x, y, 0, 1, 1, c)
+		draw_rectangle(x, y, @r, @r, c)
 	end
+
 
 	def draw_rectangle(x, y, w, h, c)
 		draw_quad(x, y, c, x + w, y, c, x + w, y + h, c, x, y + h, c)
